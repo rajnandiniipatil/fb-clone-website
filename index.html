@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Facebook Clone</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="nav-left">
+            <div class="logo">facebook</div>
+
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search Facebook">
+            </div>
+        </div>
+
+        <div class="nav-center">
+
+            <div class="nav-icon active">
+                <i class="fa-solid fa-house"></i>
+            </div>
+
+            <div class="nav-icon">
+                <i class="fa-solid fa-user-group"></i>
+            </div>
+
+            <div class="nav-icon">
+                <i class="fa-solid fa-tv"></i>
+            </div>
+
+            <div class="nav-icon">
+                <i class="fa-solid fa-store"></i>
+            </div>
+
+        </div>
+
+        <div class="nav-right">
+
+            <div class="circle-icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="circle-icon">
+                <i class="fa-brands fa-facebook-messenger"></i>
+            </div>
+
+            <div class="circle-icon">
+                <i class="fa-solid fa-bell"></i>
+            </div>
+
+            <img src="images/profile.jpg" class="nav-profile">
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= MAIN ================= -->
+
+    <main class="main-container">
+
+
+        <!-- ================= LEFT SIDEBAR ================= -->
+
+        <aside class="left-sidebar">
+
+            <div class="profile-menu">
+                <img src="images/profile.jpg">
+                <span>Rajnandini Patil</span>
+            </div>
+
+            <div class="sidebar-item">
+                <i class="fa-solid fa-user-group"></i>
+                <span>Friends</span>
+            </div>
+
+            <div class="sidebar-item">
+                <i class="fa-solid fa-clock"></i>
+                <span>Memories</span>
+            </div>
+
+            <div class="sidebar-item">
+                <i class="fa-solid fa-bookmark"></i>
+                <span>Saved</span>
+            </div>
+
+            <div class="sidebar-item">
+                <i class="fa-solid fa-users"></i>
+                <span>Groups</span>
+            </div>
+
+            <div class="sidebar-item">
+                <i class="fa-solid fa-video"></i>
+                <span>Video</span>
+            </div>
+
+            <div class="sidebar-item">
+                <i class="fa-solid fa-shop"></i>
+                <span>Marketplace</span>
+            </div>
+
+            <hr>
+
+            <h4>Your shortcuts</h4>
+
+            <div class="sidebar-item">
+                <i class="fa-solid fa-code"></i>
+                <span>Web Development</span>
+            </div>
+
+            <div class="sidebar-item">
+                <i class="fa-solid fa-laptop-code"></i>
+                <span>Programming</span>
+            </div>
+
+        </aside>
+
+
+        <!-- ================= FEED ================= -->
+
+        <section class="feed">
+
+
+            <!-- STORIES -->
+
+            <div class="stories">
+
+                <div class="story create-story">
+
+                    <img src="images/profile.jpg">
+
+                    <div class="story-add">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+
+                    <span>Create Story</span>
+
+                </div>
+
+
+                <div class="story">
+
+                    <img src="images/post1.jpg">
+
+                    <div class="story-profile">
+                        <img src="images/profile.jpg">
+                    </div>
+
+                    <span>Priya</span>
+
+                </div>
+
+
+                <div class="story">
+
+                    <img src="images/post2.jpg">
+
+                    <div class="story-profile">
+                        <img src="images/profile.jpg">
+                    </div>
+
+                    <span>Neha</span>
+
+                </div>
+
+
+                <div class="story">
+
+                    <img src="images/post3.jpg">
+
+                    <div class="story-profile">
+                        <img src="images/profile.jpg">
+                    </div>
+
+                    <span>Rahul</span>
+
+                </div>
+
+            </div>
+
+
+            <!-- CREATE POST -->
+
+            <div class="create-post">
+
+                <div class="post-top">
+
+                    <img src="images/profile.jpg">
+
+                    <input type="text"
+                        id="postInput"
+                        placeholder="What's on your mind, Rajnandini?">
+
+                </div>
+
+                <hr>
+
+                <div class="post-options">
+
+                    <button>
+                        <i class="fa-solid fa-video"></i>
+                        Live Video
+                    </button>
+
+                    <button>
+                        <i class="fa-solid fa-image"></i>
+                        Photo/Video
+                    </button>
+
+                    <button>
+                        <i class="fa-regular fa-face-smile"></i>
+                        Feeling
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- POST 1 -->
+
+            <div class="post">
+
+                <div class="post-header">
+
+                    <img src="images/profile.jpg">
+
+                    <div>
+
+                        <h3>Rajnandini Patil</h3>
+
+                        <p>
+                            2h ·
+                            <i class="fa-solid fa-earth-americas"></i>
+                        </p>
+
+                    </div>
+
+                    <i class="fa-solid fa-ellipsis post-menu"></i>
+
+                </div>
+
+
+                <div class="post-content">
+
+                    <p>
+                        Learning web development and building new projects!
+                        💻🚀
+                    </p>
+
+                </div>
+
+
+                <img src="images/post1.jpg" class="post-image">
+
+
+                <div class="post-stats">
+
+                    <span>
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        125
+                    </span>
+
+                    <span>18 comments · 5 shares</span>
+
+                </div>
+
+
+                <hr>
+
+
+                <div class="post-actions">
+
+                    <button class="like-btn">
+                        <i class="fa-regular fa-thumbs-up"></i>
+                        Like
+                    </button>
+
+                    <button>
+                        <i class="fa-regular fa-comment"></i>
+                        Comment
+                    </button>
+
+                    <button>
+                        <i class="fa-solid fa-share"></i>
+                        Share
+                    </button>
+
+                </div>
+
+
+                <div class="comment-box">
+
+                    <img src="images/profile.jpg">
+
+                    <input type="text"
+                        placeholder="Write a comment...">
+
+                </div>
+
+            </div>
+
+
+            <!-- POST 2 -->
+
+            <div class="post">
+
+                <div class="post-header">
+
+                    <img src="images/profile.jpg">
+
+                    <div>
+
+                        <h3>Rajnandini Patil</h3>
+
+                        <p>
+                            5h ·
+                            <i class="fa-solid fa-earth-americas"></i>
+                        </p>
+
+                    </div>
+
+                    <i class="fa-solid fa-ellipsis post-menu"></i>
+
+                </div>
+
+
+                <div class="post-content">
+
+                    <p>
+                        Consistency is the key to learning programming. ❤️
+                    </p>
+
+                </div>
+
+
+                <img src="images/post2.jpg" class="post-image">
+
+
+                <div class="post-stats">
+
+                    <span>
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        89
+                    </span>
+
+                    <span>12 comments · 3 shares</span>
+
+                </div>
+
+
+                <hr>
+
+
+                <div class="post-actions">
+
+                    <button class="like-btn">
+                        <i class="fa-regular fa-thumbs-up"></i>
+                        Like
+                    </button>
+
+                    <button>
+                        <i class="fa-regular fa-comment"></i>
+                        Comment
+                    </button>
+
+                    <button>
+                        <i class="fa-solid fa-share"></i>
+                        Share
+                    </button>
+
+                </div>
+
+
+                <div class="comment-box">
+
+                    <img src="images/profile.jpg">
+
+                    <input type="text"
+                        placeholder="Write a comment...">
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+        <!-- ================= RIGHT SIDEBAR ================= -->
+
+        <aside class="right-sidebar">
+
+            <div class="sponsored">
+
+                <h3>Sponsored</h3>
+
+                <div class="sponsored-item">
+
+                    <img src="images/post3.jpg">
+
+                    <div>
+                        <h4>Learn Programming</h4>
+                        <p>Start your coding journey today.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <hr>
+
+
+            <div class="birthdays">
+
+                <h3>Birthdays</h3>
+
+                <div class="birthday-item">
+
+                    <i class="fa-solid fa-gift"></i>
+
+                    <p>
+                        <b>Priya</b> and
+                        <b>2 others</b> have birthdays today.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <hr>
+
+
+            <div class="contacts">
+
+                <div class="contacts-header">
+
+                    <h3>Contacts</h3>
+
+                    <div>
+                        <i class="fa-solid fa-video"></i>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+
+                </div>
+
+
+                <div class="contact">
+
+                    <div class="online">
+                        <img src="images/profile.jpg">
+                    </div>
+
+                    <span>Priya Sharma</span>
+
+                </div>
+
+
+                <div class="contact">
+
+                    <div class="online">
+                        <img src="images/profile.jpg">
+                    </div>
+
+                    <span>Rahul Patil</span>
+
+                </div>
+
+
+                <div class="contact">
+
+                    <div class="online">
+                        <img src="images/profile.jpg">
+                    </div>
+
+                    <span>Neha Joshi</span>
+
+                </div>
+
+
+                <div class="contact">
+
+                    <img src="images/profile.jpg">
+
+                    <span>Amit Kumar</span>
+
+                </div>
+
+            </div>
+
+        </aside>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
